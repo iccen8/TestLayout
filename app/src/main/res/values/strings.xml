@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">ece454minilab5</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_linear_layout">LinearLayoutActivity</string>
+    <string name="title_activity_list_view_layout">ListViewLayoutActivity</string>
+    <string name="title_activity_relative_layout">RelativeLayoutActivity</string>
+    <string name="title_activity_scroll_view_layout">ScrollViewLayoutActivity</string>
+    <string name="title_activity_date_and_time">DateAndTimeActivity</string>
+    <string name="title_activity_shared_preferences">SharedPreferencesActivity</string>
+
+        <string name="ui_button_linear_layout_title">Linear Layout</string>
+        <string name="ui_button_relative_layout_title">Relative Layout</string>
+        <string name="ui_button_scrollview_layout_title">ScrollView Layout</string>
+        <string name="ui_button_listview_layout_title">ListView Layout</string>
+        <string name="ui_button_save_title">Save</string>
+        <string name="ui_button_cancel_title">Cancel</string>
+        <string name="ui_button_date_time_layout_title">Date and Time</string>
+        <string name="ui_button_shared_preference_layout_title">SharedPreferences</string>
+        <string name="save_message">Save done!</string>
+        <string name="cancel_message">Cancelled</string>
+
+
+        <!-- Linear/Scrowlview layout -->
+
+        <string name="ui_button_goback_title">go back</string>
+        <string name="ui_profile_name_hint">Your name here</string>
+        <string name="ui_profile_name_title">Name</string>
+        <string name="ui_profile_email_hint">Your Email here</string>
+        <string name="ui_profile_email_title">Email:</string>
+        <string name="ui_profile_phone_hint">Your phone number here</string>
+        <string name="ui_profile_phone_title">Phone:</string>
+        <string name="ui_profile_gender_title">Gender:</string>
+        <string name="ui_profile_gender_male">Male</string>
+        <string name="ui_profile_gender_female">Female</string>
+        <string name="ui_profile_date_title">Date:</string>
+        <string name="ui_profile_date_hint">MM/DD/YYYY</string>
+        <string name="ui_mood_spinner_title">How are you feeling:</string>
+
+        <string-array name="ui_mood_spinner_entries">
+            <item>Happy</item>
+            <item>Sad</item>
+            <item>Tired</item>
+            <item>Rested</item>
+            <item>Stressed</item>
+            <item>Fair to middling</item>
+            <item>Great</item>
+        </string-array>
+
+
+        <string name="ui_profile_device_title">Cellphones</string>
+        <string name="ui_profile_demand_title">I want to play with Android</string>
+
+        <!-- Relative layout -->
+
+        <string name="scrollview_message">ScrollView allows you to load up a long layout.</string>
+
+        <!-- Relative layout -->
+
+        <string name="ui_icon_message">Keep Calm and On Wisconsin!</string>
+        <string name="ui_icon_picture">gobadgers</string>
+
+        <!-- Date and Time -->
+
+        <string name="ui_date_time_title">DateAndTimeActivity allows you to set date and time using the standard API.</string>
+        <string name="ui_button_date_title">Set Date</string>
+        <string name="ui_button_time_title">Set Time</string>
+
+        <!-- SharedPreferences -->
+
+        <string name="preference_name">my_shared_preferences</string>
+        <string name="preference_key_profile_email">profile_email</string>
+        <string name="preference_key_profile_gender">profile_gender</string>
+</resources>

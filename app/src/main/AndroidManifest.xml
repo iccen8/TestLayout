@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.wisc.ece.ece454minilab5" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainLayoutActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LinearLayoutActivity"
+            android:label="@string/title_activity_linear_layout" >
+        </activity>
+        <activity
+            android:name=".ListViewLayoutActivity"
+            android:label="@string/title_activity_list_view_layout" >
+        </activity>
+        <activity
+            android:name=".RelativeLayoutActivity"
+            android:label="@string/title_activity_relative_layout" >
+        </activity>
+        <activity
+            android:name=".ScrollViewLayoutActivity"
+            android:label="@string/title_activity_scroll_view_layout" >
+        </activity>
+        <activity
+            android:name=".DateAndTimeActivity"
+            android:label="@string/title_activity_date_and_time" >
+        </activity>
+        <activity
+            android:name=".SharedPreferencesActivity"
+            android:label="@string/title_activity_shared_preferences" >
+        </activity>
+    </application>
+
+</manifest>
